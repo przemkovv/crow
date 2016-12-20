@@ -364,11 +364,17 @@ namespace crow
                 {201, "HTTP/1.1 201 Created\r\n"},
                 {202, "HTTP/1.1 202 Accepted\r\n"},
                 {204, "HTTP/1.1 204 No Content\r\n"},
+                {205, "HTTP/1.1 205 Reset Content\r\n"},
+                {206, "HTTP/1.1 206 Partial Content\r\n"},
+                {207, "HTTP/1.1 207 Multi-Status\r\n"},
 
                 {300, "HTTP/1.1 300 Multiple Choices\r\n"},
                 {301, "HTTP/1.1 301 Moved Permanently\r\n"},
                 {302, "HTTP/1.1 302 Moved Temporarily\r\n"},
                 {304, "HTTP/1.1 304 Not Modified\r\n"},
+                {305, "HTTP/1.1 305 Use Proxy\r\n"},
+                {306, "HTTP/1.1 306 (Unused)\r\n"},
+                {307, "HTTP/1.1 307 Temporary Redirect\r\n"},
 
                 {400, "HTTP/1.1 400 Bad Request\r\n"},
                 {401, "HTTP/1.1 401 Unauthorized\r\n"},
